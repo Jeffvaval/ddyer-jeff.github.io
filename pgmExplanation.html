@@ -2,57 +2,34 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Program Explanation – Simple Cost Calculator</title>
+<title>Simple Program Explanation</title>
 </head>
 
 <body>
 
-<header>
-<h1>Why Programming Is Powerful</h1>
-<p>By <strong>Jeff Vaval</strong></p>
-</header>
+<h1>A Simple Addition Program</h1>
+<p>By Jeff Vaval</p>
 
-<main>
-
-<h2>A Simple Cost Calculator Program</h2>
-
+<h2>What This Program Does</h2>
 <p>
-This page explains a small <em>C++ program</em> that calculates a total cost.
-The program uses <abbr title="Input Output">I/O</abbr> to receive numbers and produce a result.
+This <em>C++</em> program adds two numbers using <abbr title="Input Output">I/O</abbr>.
+A <dfn>variable</dfn> named <var>sum</var> stores the result.
 </p>
 
-<p>
-A <dfn>variable</dfn> is a named storage location in a program. In this example,
-the variable <var>total</var> stores the final answer.
-</p>
-
-<h2>Code Fragment</h2>
+<h2>Code Example</h2>
 
 <pre><code>
-double hotel, flight, meals, total;
-
-cout << "Enter hotel cost:";
-cin >> hotel;
-
-cout << "Enter flight cost:";
-cin >> flight;
-
-cout << "Enter meal cost:";
-cin >> meals;
-
-total = hotel + flight + meals;
-cout << total;
+int a, b, sum;
+cin >> a;
+cin >> b;
+sum = a + b;
+cout << sum;
 </code></pre>
 
-<h2>Input and Output Example</h2>
-
 <p>
-If the user enters <code>400</code>, <code>300</code>, and <code>200</code>,
-the <mark>output</mark> will be <strong>900</strong>.
-Notice how each <var>variable</var> contributes to the result.
+If the input is <code>3</code> and <code>4</code>, the <mark>output</mark> is
+<strong>7</strong>.
 </p>
-
-<h2>Programming Quote</h2>
 
 <p>
 <q>Programs must be written for people to read.</q>
@@ -60,23 +37,9 @@ Notice how each <var>variable</var> contributes to the result.
 </p>
 
 <p>
-Good code is not just functional — it is <em>readable</em> and <strong>maintainable</strong>.
-<small>Clarity matters.</small>
+Example: x<sup>2</sup> and y<sub>1</sub> <small>(math style)</small>
 </p>
-
-<p>
-Example notation: x<sup>2</sup> and y<sub>1</sub>
-</p>
-
-<p>
-Page created on <time datetime="2026-02-10">February 10, 2026</time>
-</p>
-
-</main>
-
-<footer>
-<p>CIS 119 Web Programming Project</p>
-</footer>
 
 </body>
 </html>
+
